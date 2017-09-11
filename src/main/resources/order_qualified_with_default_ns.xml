@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder 
+xmlns="http://shiporder.hu/Shiporder" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://shiporder.hu/Shiporder shiporder_qualified.xsd">
+  <orderid>123456</orderid>
+  <orderperson>orderperson</orderperson>
+  <shipto>
+    <name>name</name>
+    <address>address</address>
+    <city>city</city>
+    <country>country</country>
+  </shipto>
+  <item>
+    <title>title</title>
+    <quantity>1</quantity>
+    <price>0.0</price>
+  </item>
+</shiporder>
