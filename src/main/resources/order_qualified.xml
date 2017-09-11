@@ -4,16 +4,4 @@ xmlns:q="http://shiporder.hu/Shiporder"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://shiporder.hu/Shiporder shiporder_qualified.xsd">
   <q:orderid>123456</q:orderid>
-  <q:orderperson>orderperson</q:orderperson>
-  <q:shipto>
-    <q:name>name</q:name>
-    <q:address>address</q:address>
-    <q:city>city</q:city>
-    <q:country>country</q:country>
-  </q:shipto>
-  <q:item>
-    <q:title>title</q:title>
-    <q:quantity>1</q:quantity>
-    <q:price>0.0</q:price>
-  </q:item>
 </q:shiporder>
